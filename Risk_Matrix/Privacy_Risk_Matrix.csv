@@ -1,0 +1,7 @@
+Risk Category,Risk Description,Likelihood (1-5),Impact (1-5),Overall Risk (L × I),Risk Level,Mitigation Plan
+Access Control,Employees have excessive access to PII,5,4,20,High,Implement Role-Based Access Control (RBAC)
+Data Encryption,Some customer data stored unencrypted in legacy systems,5,5,25,Critical,Enforce AES-256 encryption for sensitive data
+Third-Party Security,Vendors handling PII are not regularly audited,4,4,16,High,Establish Third-Party Risk Management (TPRM) program
+Incident Response,No structured data breach response plan,5,5,25,Critical,Develop & test a Data Breach Response Plan (IRP)
+Data Retention,No automated deletion of expired customer records,4,3,12,Moderate,Enforce Data Retention Policy with automatic deletion
+Customer Privacy,No clear opt-out process for data sharing,4,3,12,Moderate,Implement a CCPA-compliant opt-out mechanism
